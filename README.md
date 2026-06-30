@@ -1,8 +1,7 @@
 # Docs Hub (Nexudus)
 
 Unified documentation control: **Dashboard**, **QA Checker**, **Tracker**,
-**Projects**, and **Scoper** (the Oracle 🔮). A real React app, so the Scoper
-does genuine KB lookups via Gemini.
+**Projects**, and **Scoper** (the Oracle 🔮).
 
 ## Run locally
 
