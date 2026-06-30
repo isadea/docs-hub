@@ -1111,7 +1111,7 @@ export default function App() {
             : view === "home" ? <Dashboard tasks={tasks} projects={projects} setView={setView} />
             : view === "qa" ? <QAChecker setView={setView} />
             : view === "projects" ? <Projects projects={projects} setProjects={setProjects} tasks={tasks} />
-            : view === "scoper" ? <ScoperScreen kb={kb} net={24} projectNames={projects.map((p) => p.name)} setView={setView} setPendingTask={setPendingTask} />
+            : view === "scoper" ? <Scoper kb={kb} net={24} projectNames={projects.map((p) => p.name)} setView={setView} setPendingTask={setPendingTask} />
             : view === "settings" ? <Settings fields={customFields} setFields={setCustomFields} kb={kb} setKb={setKb} />
             : (
             <div style={{ ...card, padding: 30, textAlign: "center", color: C.muted, fontSize: 14, marginTop: 20 }}>
